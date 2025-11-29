@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>장내 미생물 리포터</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- ✅ Chart.js 불러오기 CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <h1>🍽️ 내 식단 장내 미생물 리포트</h1>
+
+  <textarea id="foodInput" placeholder="오늘 먹은 음식들을 입력하세요 (예: 요거트, 김치, 라면)"></textarea>
+  <button id="analyzeBtn">식단 분석하기</button>
+
+  <div id="result"></div>
+
+  <!-- ✅ 그래프가 표시될 영역 -->
+  <canvas id="bacteriaChart" width="400" height="400"></canvas>
+
+  <!-- ✅ JS 연결 -->
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
